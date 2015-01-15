@@ -1,0 +1,79 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@-viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #E7E5D9;
+}
+
+.title {
+    display: inline-block;
+    width: 13rem;
+    padding: .5em;
+    background: url("../images/star.svg") repeat left center;
+    background-color: #E7E5D9;
+    background-repeat: no-repeat;
+    margin-top: -1rem;
+    text-shadow: 2px 2px #939598;
+}
+
+.masthead {
+    background: url("../images/masthead-bg.png") repeat left center;
+    text-align: center;
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+.frame {
+    border-image: url("../images/border.png") 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
+}
+
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+.img-flex2 {
+    display: block;
+    width: 100%;
+    background-color: #87714F;
+}
+
+.intro {
+    text-align: center;
+    color: #FFF;
+}
+
+.icon {
+    margin: 1rem;
+    width: 20%;
+}
+
+.subhead {
+    width: auto;
+    text-align: center;
+}
+
+.crimes {
+    text-align: left;
+}
+
+.box-1{
+    background-color:#87714f;
+}
